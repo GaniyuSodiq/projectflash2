@@ -2,6 +2,37 @@
   text-align: center;
 }
 
+.intro {
+  text-align: center;
+}
+
+.question-form {
+  width: 500px;
+  background-color: bisque;
+  margin: 0 auto;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.q-box {
+  padding: 30px;
+  border: 1px red solid;
+  margin: 5px;
+  text-align: center;
+}
+
+.q-answer {
+  background-color: bisque;
+}
+
+.qbox-container {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  max-width: 70%;
+  margin: 0 auto;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
